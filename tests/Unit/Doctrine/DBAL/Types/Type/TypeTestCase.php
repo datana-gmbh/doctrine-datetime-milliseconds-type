@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of datana-gmbh/doctrine-postgresql-milliseconds-platform package.
+ * This file is part of datana-gmbh/doctrine-datetime-milliseconds-type package.
  *
  * (c) Datana GmbH <info@datana.rocks>
  *
