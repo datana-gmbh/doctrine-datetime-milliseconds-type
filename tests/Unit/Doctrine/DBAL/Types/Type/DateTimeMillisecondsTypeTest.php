@@ -13,6 +13,7 @@ declare(strict_types=1);
 
 namespace Datana\Doctrine\Type\Tests\Unit\Doctrine\DBAL\Types\Type;
 
+use Datana\Doctrine\Testcase\TypeTestCase;
 use Datana\Doctrine\Type\Doctrine\DBAL\Types\Type\DateTimeMillisecondsType;
 use Doctrine\DBAL\Platforms\PostgreSQL100Platform;
 use Doctrine\DBAL\Types\Type;
