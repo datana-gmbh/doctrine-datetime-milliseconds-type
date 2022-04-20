@@ -12,10 +12,10 @@
     "require": {
         "php": ">=8.0",
         "datana-gmbh/doctrine-postgres-milliseconds-platform": "^1.1",
-        "datana-gmbh/doctrine-type-testcases": "^1.0.1",
         "doctrine/dbal": "^2.0"
     },
     "require-dev": {
+        "datana-gmbh/doctrine-type-testcases": "^1.0.1",
         "ergebnis/composer-normalize": "^2.2",
         "ergebnis/test-util": "^1.5",
         "friendsofphp/php-cs-fixer": "^2.19",
