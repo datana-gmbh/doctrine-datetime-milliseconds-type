@@ -1,7 +1,7 @@
 {
     "name": "datana-gmbh/doctrine-datetime-milliseconds-type",
     "type": "library",
-    "description": "A Doctrine DBAL type to store DateTime with millisecond",
+    "description": "A Doctrine DBAL type to store DateTime with milliseconds",
     "license": "MIT",
     "authors": [
         {
