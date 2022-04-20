@@ -1,7 +1,7 @@
 {
-    "name": "datana-gmbh/doctrine-postgres-milliseconds-platform",
+    "name": "datana-gmbh/doctrine-datetime-milliseconds-type",
     "type": "library",
-    "description": "A Doctrine DBAL platform for Postgres with millisecond support",
+    "description": "A Doctrine DBAL type to store DateTime with millisecond",
     "license": "MIT",
     "authors": [
         {
@@ -11,6 +11,7 @@
     ],
     "require": {
         "php": ">=7.4",
+        "datana-gmbh/doctrine-postgres-milliseconds-platform": "^1.1",
         "doctrine/dbal": "^2.0"
     },
     "require-dev": {
@@ -27,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Datana\\Doctrine\\Postgres\\Platform\\": "src/"
+            "Datana\\Doctrine\\Type\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Datana\\Doctrine\\Postgres\\Platform\\Tests\\": "tests/"
+            "Datana\\Doctrine\\Type\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",
