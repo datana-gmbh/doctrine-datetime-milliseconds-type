@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "datana-gmbh/doctrine-postgres-milliseconds-platform": "^1.1 || ^2.0",
+        "datana-gmbh/doctrine-postgres-milliseconds-platform": "^2.0",
         "doctrine/dbal": "^2.0 || ^3.0"
     },
     "require-dev": {
