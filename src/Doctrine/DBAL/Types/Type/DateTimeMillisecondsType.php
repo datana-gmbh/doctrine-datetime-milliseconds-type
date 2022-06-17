@@ -14,14 +14,14 @@ declare(strict_types=1);
 namespace Datana\Doctrine\Type\Doctrine\DBAL\Types\Type;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\PostgreSQL100Platform;
+use Doctrine\DBAL\Platforms\PostgreSQLPlatform;
 use Doctrine\DBAL\Types\DateTimeType;
 
 final class DateTimeMillisecondsType extends DateTimeType
 {
     public function getSQLDeclaration(array $column, AbstractPlatform $platform): string
     {
-        if ($platform instanceof PostgreSQL100Platform) {
+        if ($platform instanceof PostgreSQLPlatform) {
             return 'TIMESTAMP(3) WITHOUT TIME ZONE';
         }
 
